@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html,
 body {
   padding: 0;
@@ -14,3 +16,46 @@ a {
 * {
   box-sizing: border-box;
 }
+.slick-arrow::before{
+  position: absolute;
+  top: -2rem !important;
+  color:#85C0AB !important;
+  font-size: 2rem !important;
+}
+.slick-prev::before{
+  left: -1rem !important;
+}
+.slick-next{
+  right: 1.7rem !important;
+}
+.slick-prev{
+  left: 0rem !important;
+  z-index: 1000;
+}
+.slick-slide {
+  padding: 0 15px;
+  overflow: hidden;
+}
+.slick-list {
+  margin: 0 -15px;
+}
+.slick-dots{
+  bottom: -40px !important;
+}
+.slick-dots li button::before{
+  font-size: 14px !important;
+}
+.slick-dots li.slick-active button::before{
+  color: #521409 !important;
+}
+.slick-next::before{
+  font-size: 3rem !important;
+}
+.slick-prev::before{
+  font-size: 3rem !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

@@ -1,0 +1,14 @@
+export { default as Header } from "./Header";
+export { default as Footer } from "./Footer";
+export { default as HeroSection } from "./HeroSection";
+export { default as PopularServices } from "./PopularServices";
+export { default as ServicesCard } from "./ServicesCard";
+export { default as SecondHeroSection } from "./SecondHeroSection";
+export { default as SelectedSection } from "./SelectedSection";
+export { default as TaskioCard } from "./TaskioCard";
+export { default as ThirdHeroSection } from "./ThirdHeroSection";
+export { default as HelpToChoose } from "./HelpToChoose";
+export { default as ChooseCard } from "./ChooseCard";
+export { default as RegionsSection } from "./RegionsSection";
+export { default as RegionCard } from "./RegionCard";
+export { default as Testimonials } from "./Testimonials";
