@@ -41,7 +41,7 @@ const HeroSection = ({ jobTags }) => {
           </h1>
         </section>
         <div className="mt-10 text-center inline-block">
-          <div className="inline-flex space-x-6 h-12">
+          <div className="inline-flex space-x-2 sm:space-x-6 h-12">
             <input
               onChange={(e) => setSearch(e.target.value.toLowerCase().trim())}
               type="text"
