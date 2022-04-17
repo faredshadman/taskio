@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ImPriceTag } from "react-icons/im";
 const ServicesCard = ({ service }) => {
   return (
-    <div className="rounded-lg hover:scale-105 transition-all duration-100 ease-in p-4 mb-10 text-primary shadow-xl relative flex flex-col">
+    <div className="rounded-lg transition-all duration-100 ease-in p-4 mb-10 text-primary shadow-xl relative flex flex-col">
       <Image
         className="rounded-lg"
         alt="photo"
